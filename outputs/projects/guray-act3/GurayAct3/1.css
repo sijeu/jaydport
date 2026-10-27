@@ -1,0 +1,60 @@
+body{
+    background-color: #b8d59a;
+    font-family: Comic Sans MS;
+}
+
+header{
+    background-color: #ddeccb;
+    text-align: center;
+    border: 1px solid #d8c3a5;
+}
+
+nav{
+    background-color: #fff9e8;
+    text-align: center;
+    
+}
+
+footer{
+    bottom: 0%;
+    text-align: center;
+    background-color: #fff9e8;
+    padding: 15px;
+    border: 2px solid #d8c3a5;
+    margin: 5px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff3b0;
+    border: 2px solid #fff3b0;
+    margin: 5px;
+}
+
+.pic{
+width: 200;
+height: 300;
+
+}
+
+.info{
+
+}
+
+.section{
+    display: flex   ;
+    flex-direction: row;
+}
+
+.welcome{
+    margin: 5px;
+    background-color: #fff9e8;
+    border: 2px solid #d8c3a5;
+}
+
+.announce{
+    margin: 5px;
+    background-color: #fff9e8;
+    border: 2px solid #d8c3a5;
+}

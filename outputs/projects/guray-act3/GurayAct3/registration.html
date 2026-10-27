@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <h1>Student Registration</h1>
+        <p>Welcome to the Registration!</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="registration.html">Registration</a>
+        <a href="Grades.html">Grades</a>
+        <a href="profile.html">profile</a>
+    </nav>
+
+    <table>
+        <tr>
+            <section>
+                <article>
+                    <h2><b>Registration Form<b></h2>
+
+                    Full name: 
+                    <br>
+                    <input type="text" name="first_name" placeholder="Enter your Name"/><br><br>
+                    
+                    Password: 
+                    <br>
+                    <input type="password" name="password" placeholder="Password" /><br><br>
+                    
+                    E-mail: 
+                    <br>
+                    <input type="email" name="email" placeholder="Enter Email" /><br><br>
+                    
+                    Age: 
+                    <br>
+                    <input type="number" name="age" placeholder="Enter your Age" />
+
+                </article>
+
+                <br><br>
+
+                <form>
+                    <b>Gender</b><br>
+                    <input type="radio" name="Gender" value="Male"> Male
+                    <input type="radio" name="Gender" value="Female"> Female
+                </form>
+
+                <br>
+
+                <form>
+                    <b>Year Level</b> <br>
+                    <select name="dropdown">
+                    <option value="1st year" selected>1st year</option>
+                    <option value="2nd year">2nd year</option>
+                    <option value="3rd year">3rd year</option>
+                    <option value="4th year">4th year</option>
+                </select>
+                </form>
+                
+                <br>
+
+                <form>
+                    <b>Programming Skills</b> <br>
+                    <input type="checkbox" name="HTML" value="on"> HTML
+                    <input type="checkbox" name="CSS" value="on"> CSS
+                    <input type="checkbox" name="JavaScript" value="on"> JavaScript
+                </form>
+
+                <br>
+
+                <form>
+                    <b>Tell me about Yourself:</b> <br />
+                    <textarea rows="5" cols="50" name="description" placeholder="Enter here"></textarea>
+                </form>
+
+                <br>
+                
+                <form>
+                    <b>Upload Profile Picture:</b> <br>
+                    <input type="file" name="fileupload" accept="image/*" />
+                </form>
+
+                <br>
+                
+                <form style="color: #b89e7b;">
+                    <input type="submit" name="submit" value="Submit" />
+                    <input type="reset" name="reset"  value="Reset" />
+                    <input type="button" name="ok" value="OK"/>
+                </form>
+
+                <form>
+                    <p>This is page 10</p>
+                    <input type="hidden" name="pagename" value="10" />
+                    <input type="submit" name="submit" value="Submit" />
+                    <input type="reset" name="reset"  value="Reset" />
+                </form>              
+            </section>
+        </tr>
+    </table>
+
+    <footer>
+        <p>&copy; 2026 My Personal Website :3</p>
+    </footer>
+    
+</body>
+</html>

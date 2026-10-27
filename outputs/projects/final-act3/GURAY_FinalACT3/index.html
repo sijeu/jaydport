@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 40px;
+        background-color: #fbfcee;
+        color: #343b1b;
+    }
+
+    .card{
+        background-color: #f6e6a5;
+        width: 80%;
+        margin: auto;
+        padding: 30px;
+        border-radius: 20px;
+        border: solid 5px #c8d69b;
+    }
+
+    h1{
+        color: #3971b8;
+    }
+
+    h2{
+        color: #3971b8;
+    }
+
+    .profile{
+        background-color: #fbfcee;
+        padding: 20px;
+        border-radius: 15px;
+        margin: 20px;
+    }
+
+    button{
+        background-color: #3971b8;
+        color: white;
+        border: none;
+        padding: 12px 20 px;
+        border-radius: 10px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    
+
+</style>
+
+
+<body>
+    <div class="card">
+
+        <h1 id="title">STUDENT PROFILE</h1>
+
+        <div id="profile" class="profile">
+            <h2>Hello, Student!</h2>
+            <p>Welcome to Student Profile. This page shows basic student information</p>
+
+            <p>
+                <b>Name:</b>
+                <span id="studentname"> Your Name</span>
+            </p>
+
+            <p>
+                <b>Course:</b>
+                <span id="studentcourse"></span>
+            </p>
+
+            <p>
+                <b>Year Level:</b>
+                <span id="studentname">Year</span>
+            </p>
+        </div>
+
+        <button id="clickbtn">
+            Click Me!
+        </button>
+
+        <button id="hidebtn">
+            Hide Profile!
+        </button>
+
+        <button id="shwbtn">
+            Show Profile!
+        </button>
+
+        <p id="message">Output</p>
+
+        <!-- course -->
+
+        <h3>Choose your Course</h3>
+
+        <select id="course">
+            <option value="it">BSIT</option>
+            <option value="tm">BSTM</option>
+            <option value="oad">BSOAD</option>
+            <option value="hm">BSHM</option>
+        </select>
+
+        <br><br>
+
+        <h2>Student List</h2>
+
+        <p>Choose an Action for the table</p>
+
+        <button id="oddbtn">Apply Odd Rows</button>
+        <button id="evenbtn">Apply Even Rows</button>
+
+        <br><br>
+
+        <table border="1" id="table">
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Valdez</td>
+                <td>BSIT</td>
+                <td>3rd</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>jei</td>
+                <td>BSIT</td>
+                <td>3rd</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Baterbonia</td>
+                <td>BSCS</td>
+                <td>4th</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
